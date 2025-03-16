@@ -12,7 +12,7 @@ export default async function Page() {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-            email: 'nyeso.edu+new@gmail.com'
+            email: 'nyeso.edu@gmail.com'
         }),
         cache: 'no-cache',
     });
